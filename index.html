@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Nguyen Hoang Phuc</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            <!--transform: scale(0.77);-->
+            transform-origin: top center; /* Giữ nội dung căn giữa */
+        }
+
+        .container {
+            display: flex;
+            max-width: 1000px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .sidebar {
+            background: #222;
+            color: #fff;
+            width: 35%;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        .sidebar h2 {
+            font-size: 22px;
+            margin-bottom: 8px;
+        }
+
+        .job-title {
+            font-style: normal;
+            font-weight: 500;
+            color: #00b7ff;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+
+        .sidebar h3 {
+            text-align: left;
+            margin-top: 20px;
+            border-bottom: 1px solid #444;
+            padding-bottom: 5px;
+        }
+
+        .sidebar p, .sidebar li {
+            text-align: left;
+            font-size: 14px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        .sidebar li {
+            margin-bottom: 6px;
+        }
+
+        .content {
+            width: 65%;
+            padding: 30px;
+        }
+
+        .content section {
+            margin-bottom: 25px;
+        }
+
+        .content h2 {
+            color: #007acc;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #007acc;
+            display: inline-block;
+            padding-bottom: 3px;
+        }
+
+        .item {
+            margin-bottom: 15px;
+        }
+
+        .date {
+            font-size: 16px;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .sidebar, .content {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Nguyễn Hoàng Phúc</h2>
+            <h4>Junior Unity Developer</h4>
+            <div style="margin-top: 20px; margin-bottom: 40px;">
+                <hr>
+            </div>
+
+            <div class="contact">
+                <h3>CONTACT</h3>
+                <ul>
+                    <li><p><strong>Email:</strong> nhphuc1562002@gmail.com</p><li>
+                    <li><p><strong>Phone:</strong> 0935172546</p><li>
+                    <li><p><strong>Birthday:</strong> 15/06/2002</p><li>
+                </ul>
+            </div>
+
+            <div class="skills" style="margin-top: 50px;">
+                <h3>SKILL</h3>
+                <ul>
+                    <li>Unity - Mobile / C#</li>
+                    <li>C++ / MFC</li>
+                    <li>Firebase</li>
+                    <li>Git</li>
+                    <li>Deploy IOS App</li>
+                    <li>TOEIC 600</li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="content">
+            <section>
+                <h2>CONTENT</h2>
+                <p>I am a Junior Unity Developer with a passion for creating deep and interactive strategy games. I always want to apply logical, creative and efficient thinking in the game development process.</p>
+            </section>
+
+            <section>
+                <h2>EXPERIENCE</h2>
+                <div class="item" style="margin-top: 5px; margin-bottom: 20px;">
+                    <h3><a href="https://vina-cad.com/vi" target="_blank" rel="noopener noreferrer">VINACAD - C++ DEVELOPER</a></h3>
+                    <p class="date"><a href="https://www.prima-sol.com" target="_blank" rel="noopener noreferrer">Prima Solutions</a>, January 2025 - Now</p>
+                    <ul>
+                        <li>Implementing CAD commands and features similar to AutoCAD using C++ and the ODA framework.</li>
+                        <li>Designing and maintaining user interfaces with the MFC framework for improved usability and stability.</li>
+                        <li>Building and managing dynamic libraries (DLLs) to support modular software development and team collaboration.</li>
+                        <li>Troubleshooting and optimizing software performance to ensure smooth functionality across the application.</li>
+                    </ul>
+                </div>
+
+                <div class="item">
+                    <h3><a href="https://www.prima-sol.com/products/3/" target="_blank" rel="noopener noreferrer">ONSITER - UNITY DEVELOPER</a></h3>
+                    <p class="date"><a href="https://www.prima-sol.com" target="_blank" rel="noopener noreferrer">Prima Solutions</a>, October 2023 - June 2025</p>
+                    <ul>
+                        <li>Developing the entire 3D processing application using Unity, including logic, UI, and data synchronization with backend APIs</li>
+                        <li>Integrating Swift and customizing the RTAB-Map library for real-time 3D scanning using smartphones.</li>
+                        <li>Collaborating with backend developers to ensure seamless data exchange between mobile and web clients.</li>
+                        <li>Deploying builds to TestFlight for internal testing and BrSE (Bridge System Engineer) review.</li>
+                    </ul>
+                </div>
+
+            </section>
+
+            <section>
+                <h2>EDUCATION</h2>
+                <div class="item">
+                    <h3>Da Nang University of Science and Technology</h3>
+                    <span class="date">2020 - 2024</span>
+                    <p>Bachelor’s Degree in Information Technology — Major in Information Security</p>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
